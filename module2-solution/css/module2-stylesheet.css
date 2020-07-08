@@ -1,0 +1,64 @@
+h1 {
+  font-family: "Trebuchet", sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+section {
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+div {
+  background: #c9c9c9;
+  border: 1px solid black;
+}
+
+section div {
+  position: relative;
+  padding: 10px;
+  padding-top: 35px;
+}
+
+section div div {
+  width: 20%;
+  padding: 5px;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#title1 {
+  background: #d2c2f0;
+}
+
+#title2 {
+  background: #c2e6f0;
+}
+
+#title3 {
+  background: #def0c2;
+}
