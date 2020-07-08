@@ -5,7 +5,6 @@ h1 {
   font-size: 175%;
 }
 
-<!-- Setting media queries ->
 @media (min-width: 992px) {
   .col-lg-4 {
     width: 33.33%;
@@ -45,7 +44,6 @@ section div {
   padding-top: 40px;
 }
 
-<!-- positioning each section title at top right corner -->
 section div div {
   font-size: 125%;
   width: 20%;
@@ -56,7 +54,6 @@ section div div {
   right: 0px;
 }
 
-<!-- Setting background colors of each section title -->
 #title1 {
   background: #d2c2f0;
 }
