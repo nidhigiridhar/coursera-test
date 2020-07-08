@@ -1,7 +1,8 @@
 h1 {
-  font-family: "Trebuchet", sans-serif;
+  font-family: "Optima", sans-serif;
   font-style: normal;
   text-align: center;
+  font-size: 175%;
 }
 
 @media (min-width: 992px) {
@@ -32,6 +33,7 @@ section {
 }
 
 div {
+  font-family: "Optima", sans-serif;
   background: #c9c9c9;
   border: 1px solid black;
 }
@@ -39,10 +41,11 @@ div {
 section div {
   position: relative;
   padding: 10px;
-  padding-top: 35px;
+  padding-top: 40px;
 }
 
 section div div {
+  font-size: 125%;
   width: 20%;
   padding: 5px;
   text-align: center;
